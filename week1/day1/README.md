@@ -57,8 +57,7 @@ By completing this training, the following outcomes were achieved:
 ## ⚙️ Technologies Used
 
 * SQL
-* MySQL
-* MySQL Workbench
+* Databricks
 
 ## ▶️ Execution Steps
 
