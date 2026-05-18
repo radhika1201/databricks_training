@@ -90,8 +90,7 @@ This training improved practical understanding of SQL operations and database qu
 ## ⚙️ Technologies Used
 
 * SQL
-* MySQL
-* MySQL Workbench
+* Databeicks
 
 ## ▶️ Execution Steps
 
