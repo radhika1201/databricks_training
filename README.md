@@ -1,46 +1,23 @@
-# 🚀 SQL Training Repository
+# 🚀 Databricks SQL Training Repository
 
 ## 📌 Overview
 
-This repository contains SQL training exercises, practice files, and learning materials completed as part of an ongoing database training program. The training focuses on building strong foundational and practical knowledge in SQL, relational database management systems, and database design using MySQL.
+This repository contains hands-on SQL training exercises and practice tasks completed as part of the Databricks SQL training program. The training focuses on developing practical knowledge in SQL, relational database concepts, query execution, and database management using MySQL and Databricks environments.
 
-The repository will be continuously updated with new training tasks, assignments, query solutions, and database-related projects in future sessions.
+The repository includes database creation scripts, SQL query solutions, and real-time practice exercises designed to strengthen analytical thinking and database development skills.
 
-## 🎯 Training Goals
+---
 
-* Develop practical SQL programming skills
-* Understand relational database concepts
-* Practice query writing and optimization
-* Learn database design and management techniques
-* Build industry-relevant database development knowledge
+## 📅 Training Progress
 
-## 📂 Repository Structure
+### ✅ Week 1 - Day 1
 
-```bash
-SQL-Training/
-│
-├── datacreation.sql     # Database creation and sample data
-├── solutions.sql        # SQL query solutions and practice exercises
-└── README.md            # Training repository documentation
-```
+#### 📂 Files Included
 
-The repository structure is organized to maintain training files, SQL practice exercises, and project documentation in a clean and structured format.
+* `datacreation.sql`
+* `solutions.sql`
 
-### 🛠️ Current Training Files
-
-#### `datacreation.sql`
-
-* Database table creation
-* Primary and foreign key implementation
-* Sample data insertion
-
-### 📊 `solutions.sql`
-
-* SQL query solutions
-* Filtering and sorting operations
-* Aggregate and grouping queries
-
-## 📚 Concepts Covered
+#### 📚 Concepts Covered
 
 * CREATE TABLE
 * INSERT INTO
@@ -52,29 +29,102 @@ The repository structure is organized to maintain training files, SQL practice e
 * Aggregate functions
 * Relational database concepts
 
+#### 🎯 Outcomes
+
+* Learned database creation and schema design
+* Practiced SQL query execution
+* Performed filtering and grouping operations
+* Improved SQL problem-solving skills
+
+---
+
+### ✅ Week 1 - Day 2
+
+#### 📂 Files Included
+
+* `data_creation.sql`
+* `solution.sql`
+
+#### 📚 Concepts Covered
+
+* Aggregate functions
+* DISTINCT and LIMIT
+* GROUP BY and HAVING
+* ORDER BY operations
+* Employee database queries
+* Data filtering techniques
+
+#### 🧪 Practice Topics
+
+* Employee database management
+* Salary-based filtering queries
+* Department-wise analysis
+* Aggregate calculations
+* Query optimization exercises
+
+#### 📖 Concepts Learned
+
+* SQL query writing and execution
+* Data filtering and analytical operations
+* Aggregate and grouped query analysis
+* Relational database handling
+* Practical implementation of MySQL operations
+
+#### 🎯 Outcomes
+
+* Improved understanding of SQL query execution
+* Developed analytical thinking using SQL
+* Gained practical experience with employee databases
+* Strengthened problem-solving skills through SQL exercises
+
+---
+
+## 🎯 Training Goals
+
+* Develop practical SQL programming skills
+* Understand relational database concepts
+* Practice query writing and optimization
+* Learn database design and management techniques
+* Build industry-relevant database development knowledge
+
+---
+
+## 📂 Repository Structure
+
+```bash
+databricks_training/
+│
+├── week1/
+│   │
+│   ├── day1/
+│   │   ├── datacreation.sql
+│   │   ├── solutions.sql
+│   │   └── README.md
+│   │
+│   └── day2/
+│       ├── data_creation.sql
+│       ├── solution.sql
+│       └── README.md
+│
+└── README.md
+```
+
+---
+
 ## 💡 Impact of the Training
 
-This training provided practical exposure to real-world database operations and strengthened understanding of relational database management systems.
+This training provided practical exposure to real-world database operations and strengthened understanding of SQL and relational database management systems.
 
 ### 🔹 Key Learning Outcomes
 
 * Improved understanding of SQL syntax and query execution
 * Gained hands-on experience in database creation and management
-* Learned how to establish relationships using primary and foreign keys
-* Developed skills in data filtering, sorting, and aggregation
-* Enhanced problem-solving ability through query-based exercises
-* Built a strong foundation for advanced database and backend development concepts
-
-## 🎯 Outcomes
-
-By completing the training exercises, the following outcomes were achieved:
-
-* Strengthened understanding of SQL and database fundamentals
-* Gained practical experience in creating and managing relational databases
-* Improved analytical and problem-solving skills through SQL query execution
 * Learned implementation of primary and foreign key relationships
-* Developed confidence in handling structured data operations
-* Built a strong foundation for advanced database technologies and backend development
+* Developed analytical and logical problem-solving skills
+* Strengthened knowledge in data filtering, sorting, and aggregation
+* Built a strong foundation for advanced database and backend concepts
+
+---
 
 ## 🔮 Future Enhancements
 
@@ -89,16 +139,23 @@ This repository will continue to grow with upcoming training activities, includi
 * Mini database projects
 * Performance optimization techniques
 
+---
+
 ## ⚙️ Technologies Used
 
 * SQL
-* MySQL
-* MySQL Workbench
+* Databricks
+
+---
 
 ## ▶️ Execution Steps
 
-1. Run `datacreation.sql` to create tables and insert data.
-2. Run `solutions.sql` to execute practice queries.
+1. Open MySQL Workbench or Databricks SQL environment.
+2. Execute database creation scripts.
+3. Run SQL solution files to practice queries.
+4. Analyze outputs and database operations.
+
+---
 
 ## 👩‍💻 Author
 
@@ -106,10 +163,8 @@ Kandala Radhika Rao
 
 ---
 
-## Conclusion
+## 📖 Conclusion
 
-The Employee Management Database System demonstrates a comprehensive implementation of relational database concepts using SQL and MySQL. The project highlights the practical application of database schema design, relational mapping, data manipulation, and analytical query processing in a structured organizational environment.
+This repository demonstrates the practical implementation of SQL and relational database concepts through structured training exercises and hands-on practice. The training focuses on improving database development skills, analytical thinking, and query optimization techniques using real-world examples.
 
-By integrating table relationships, constraints, and SQL operations, the project provides a strong foundation for understanding real-world database management systems and enterprise-level data handling practices.
-
-The project serves as an effective academic and practical reference for learners seeking hands-on experience in database development and SQL programming.
+The repository serves as a strong learning resource for building a solid foundation in SQL, database management, and backend data handling concepts.
